@@ -1,0 +1,139 @@
+body {
+    font-family: Montserrat, sans-serif !important;
+}
+
+/* Customizing navbar */
+.navbar-brand {
+    color: #252b42; /* Logo text color */
+}
+.navbar-brand:hover {
+    color: #212121; /* Hovered logo text color */
+}
+
+.nav-link {
+    color: #737373; /* Hyperlinks text color */
+}
+.nav-link:hover {
+    color: #125152;
+}
+.btn-outline-login {
+    color: #96bb7c; /* Login text color */
+}
+
+.btn-primary-join-us {
+    background-color: #96bb7c; /* Button background color */
+    border-color: #96bb7c; /* Button border color */
+    color: #fff;
+}
+
+.btn-primary-join-us:hover {
+    background-color: #7da56e; /* Button background color on hover */
+    border-color: #7da56e; /* Button border color on hover */
+}
+
+.btn-primary-join-us:not(:disabled):not(.disabled).active,
+.btn-primary-join-us:not(:disabled):not(.disabled):active,
+.show > .btn-primary-join-us.dropdown-toggle {
+    background-color: #7da56e; /* Button active state background color */
+    border-color: #7da56e; /* Button active state border color */
+}
+
+.btn-primary-join-us:focus {
+    box-shadow: 0 0 0 0.25rem rgba(150, 187, 124, 0.5); /* Button focus state box shadow */
+}
+.navbar-nav {
+    margin-left: 25px;
+}
+.header-start {
+    background: url(../img/none.png) no-repeat center top/cover;
+    height: 775px;
+}
+.vertical-content {
+    top: 30%;
+}
+.vertical-content-right {
+    top: 10%;
+}
+.vertical-content {
+    position: absolute;
+}
+
+.online-training {
+    color: #96bb7c;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.vertical-content span {
+    font-size: 58px;
+    color: #252b42;
+    font-weight: bold;
+}
+
+.vertical-content .goal {
+    color: #737373;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.vertical-content button.primary-btn {
+    background-color: #96bb7c;
+    color: #fff;
+    border: none;
+    width: 165px;
+    height: 52px;
+    display: inline-block;
+    text-align: center;
+    line-height: 52px;
+}
+
+.vertical-content button.secondary-btn {
+    background-color: transparent;
+    border: 1px solid #96bb7c;
+    color: #96bb7c;
+    border-radius: 5px;
+    width: 165px;
+    height: 52px;
+    display: inline-block;
+    text-align: center;
+    line-height: 52px;
+}
+.card-border-bottom {
+    border-bottom: 2px solid #e74040;
+    width: 50px;
+}
+.testimonial {
+    margin-top: -60px;
+}
+/* Default font size */
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+.card-text {
+    font-size: 14px; /* Adjust as needed */
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 18px; /* Adjust as needed */
+    }
+    .card-text {
+        font-size: 12px; /* Adjust as needed */
+    }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 576px) {
+    .card-text {
+        font-size: 10px; /* Adjust as needed */
+    }
+    .card-title {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .testimonial {
+        margin-top: 0;
+    }
+}
